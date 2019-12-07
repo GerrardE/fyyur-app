@@ -6,7 +6,7 @@ db = SQLAlchemy()
 # Models.
 #----------------------------------------------------------------------------#
 
-# TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
+# Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
 # Association Object
 class Show (db.Model):
     __tablename__ = 'shows'
@@ -57,6 +57,4 @@ class Artist(db.Model):
 
     def __repr__(self):
         return f'<Artist {self.id} {self.name} {self.city} {self.state} {self.phone} {self.genres} {self.facebook_link} {self.website} {self.seeking_venue} {self.seeking_description} {self.image_link}>'
-    # TODO: implement any missing fields, as a database migration using Flask-Migrate
-    # DONE
 

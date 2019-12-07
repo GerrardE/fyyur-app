@@ -255,4 +255,3 @@ class ArtistForm(FlaskForm):
         'image_link',
         validators=[URL()]
     )
-# TODO IMPLEMENT NEW ARTIST FORM AND NEW SHOW FORM
